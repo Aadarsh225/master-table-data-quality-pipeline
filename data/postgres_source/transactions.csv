@@ -1,0 +1,101 @@
+transaction_id,customer_id,transaction_date,transaction_time,amount,transaction_type,payment_method,branch,status,fraud_flag
+1001,C001,2025-01-03,09:15:00,5000,Deposit,UPI,Kathmandu,Success,No
+1002,C002,2025-01-03,10:45:00,2000,Withdrawal,Card,Delhi,Success,No
+1003,C003,2025-01-04,11:20:00,10000,Deposit,NetBanking,Mumbai,Failed,No
+1004,C004,2025-01-05,14:10:00,1500,Transfer,UPI,Pune,Success,No
+1005,C005,2025-01-05,16:25:00,7000,Deposit,Cash,Bangalore,Success,No
+1006,C006,2025-01-06,09:55:00,3000,Withdrawal,Card,Chennai,Pending,No
+1007,C007,2025-01-06,12:30:00,2500,Transfer,UPI,Kolkata,Success,No
+1008,C008,2025-01-07,13:45:00,-1000,Deposit,NetBanking,Hyderabad,Success,Yes
+1009,C009,2025-01-08,15:00:00,4000,Transfer,Card,Patna,Success,No
+1010,C010,2025-01-08,17:20:00,6000,Withdrawal,Cash,Lucknow,Failed,No
+1011,C011,2025-01-10,08:40:00,3500,Deposit,UPI,Jaipur,Success,No
+1012,C012,2025-01-11,10:10:00,4500,Transfer,Card,Delhi,Success,No
+1013,C013,2025-01-12,11:50:00,8000,Deposit,NetBanking,Mumbai,Success,No
+1014,C014,2025-01-12,13:15:00,2200,Withdrawal,Cash,Pune,Pending,No
+1015,C015,2025-01-13,14:40:00,9000,Deposit,UPI,Bangalore,Success,Yes
+1016,C016,2025-01-14,09:05:00,1200,Transfer,Card,Kathmandu,Success,No
+1017,C017,2025-01-15,16:30:00,500,Withdrawal,Cash,Chennai,Failed,No
+1018,C018,2025-01-16,18:10:00,6700,Deposit,NetBanking,Patna,Success,No
+1019,C019,2025-01-17,19:20:00,2800,Transfer,UPI,Jaipur,Success,No
+1020,C020,2025-01-18,20:00:00,7600,Deposit,Card,Hyderabad,Success,No
+TXN1021,C021,2025-02-13,8600,Debit,UPI,Groceries,Kathmandu,Success,No
+TXN1022,C022,2025-02-13,14000,Credit,Mobile Banking,Salary,Delhi,Success,No
+TXN1023,C023,2025-02-14,1200,Debit,ATM,Cash Withdrawal,Mumbai,Success,No
+TXN1024,C024,2025-02-14,9200,Debit,Card,Electronics,Pune,Failed,No
+TXN1025,C025,2025-02-15,4300,Debit,UPI,Food,Bangalore,Success,No
+TXN1026,C026,2025-02-15,17500,Credit,Net Banking,Refund,Chennai,Success,No
+TXN1027,C027,2025-02-16,6200,Debit,Card,Travel,Hyderabad,Pending,No
+TXN1028,C028,2025-02-16,700,Debit,ATM,Cash Withdrawal,Patna,Success,No
+TXN1029,C029,2025-02-17,26000,Credit,Mobile Banking,Investment,Jaipur,Success,No
+TXN1030,C030,2025-02-17,-800,Debit,UPI,Bills,Lucknow,Success,Yes
+TXN1031,C031,2025-02-18,5100,Debit,Card,Shopping,Kathmandu,Success,No
+TXN1032,C032,2025-02-18,11000,Credit,Net Banking,Loan Credit,Delhi,Success,No
+TXN1033,C033,2025-02-19,3000,Debit,UPI,Groceries,Mumbai,Failed,No
+TXN1034,C034,2025-02-19,7800,Debit,Card,Travel,Pune,Success,No
+TXN1035,C035,2025-02-20,22000,Credit,Mobile Banking,Salary,Bangalore,Success,No
+TXN1036,C036,2025-02-20,1500,Debit,ATM,Cash Withdrawal,Chennai,Success,No
+TXN1037,C037,2025-02-21,6400,Debit,UPI,Food,Patna,Pending,No
+TXN1038,C038,2025-02-21,8900,Debit,Card,Electronics,Hyderabad,Success,No
+TXN1039,C039,2025-02-22,9800,Credit,Net Banking,Refund,Jaipur,Success,No
+TXN1040,C040,2025-02-22,4100,Debit,UPI,Bills,Lucknow,Failed,Yes
+TXN1041,C041,2025-02-23,7600,Debit,Card,Shopping,Kathmandu,Success,No
+TXN1042,C042,2025-02-23,20000,Credit,Mobile Banking,Salary,Delhi,Success,No
+TXN1043,C043,2025-02-24,1800,Debit,ATM,Cash Withdrawal,Mumbai,Success,No
+TXN1044,C044,2025-02-24,13000,Debit,Card,Travel,Pune,Pending,No
+TXN1045,C045,2025-02-25,3900,Debit,UPI,Food,Bangalore,Success,No
+TXN1046,C046,2025-02-25,14500,Credit,Net Banking,Investment,Chennai,Success,No
+TXN1047,C047,2025-02-26,8200,Debit,Card,Shopping,Patna,Failed,No
+TXN1048,C048,2025-02-26,-1200,Debit,UPI,Bills,Hyderabad,Success,Yes
+TXN1049,C049,2025-02-27,17500,Credit,Mobile Banking,Loan Credit,Jaipur,Success,No
+TXN1050,C050,2025-02-27,2500,Debit,ATM,Cash Withdrawal,Lucknow,Success,No
+TXN1051,C051,2025-02-28,5600,Debit,UPI,Groceries,Kathmandu,Success,No
+TXN1052,C052,2025-02-28,23000,Credit,Net Banking,Salary,Delhi,Success,No
+TXN1053,C053,2025-03-01,900,Debit,ATM,Cash Withdrawal,Mumbai,Failed,No
+TXN1054,C054,2025-03-01,7200,Debit,Card,Electronics,Pune,Success,No
+TXN1055,C055,2025-03-02,4700,Debit,UPI,Food,Bangalore,Success,No
+TXN1056,C056,2025-03-02,16800,Credit,Mobile Banking,Refund,Chennai,Pending,No
+TXN1057,C057,2025-03-03,11500,Debit,Card,Travel,Hyderabad,Success,No
+TXN1058,C058,2025-03-03,600,Debit,ATM,Cash Withdrawal,Patna,Success,No
+TXN1059,C059,2025-03-04,28000,Credit,Net Banking,Investment,Jaipur,Success,No
+TXN1060,C060,2025-03-04,-600,Debit,UPI,Bills,Lucknow,Success,Yes
+TXN1061,C061,2025-03-05,8300,Debit,Card,Shopping,Kathmandu,Success,No
+TXN1062,C062,2025-03-05,19000,Credit,Mobile Banking,Salary,Delhi,Success,No
+TXN1063,C063,2025-03-06,2400,Debit,ATM,Cash Withdrawal,Mumbai,Pending,No
+TXN1064,C064,2025-03-06,9800,Debit,Card,Travel,Pune,Success,No
+TXN1065,C065,2025-03-07,5100,Debit,UPI,Food,Bangalore,Success,No
+TXN1066,C066,2025-03-07,13400,Credit,Net Banking,Refund,Chennai,Failed,No
+TXN1067,C067,2025-03-08,7600,Debit,Card,Shopping,Patna,Success,No
+TXN1068,C068,2025-03-08,1400,Debit,ATM,Cash Withdrawal,Hyderabad,Success,No
+TXN1069,C069,2025-03-09,21000,Credit,Mobile Banking,Loan Credit,Jaipur,Success,No
+TXN1070,C070,2025-03-09,3700,Debit,UPI,Bills,Lucknow,Pending,No
+TXN1071,C071,2025-03-10,6100,Debit,Card,Groceries,Kathmandu,Success,No
+TXN1072,C072,2025-03-10,25000,Credit,Net Banking,Salary,Delhi,Success,No
+TXN1073,C073,2025-03-11,1000,Debit,ATM,Cash Withdrawal,Mumbai,Success,No
+TXN1074,C074,2025-03-11,8800,Debit,Card,Electronics,Pune,Failed,Yes
+TXN1075,C075,2025-03-12,4900,Debit,UPI,Food,Bangalore,Success,No
+TXN1076,C076,2025-03-12,17200,Credit,Mobile Banking,Refund,Chennai,Success,No
+TXN1077,C077,2025-03-13,9700,Debit,Card,Travel,Hyderabad,Success,No
+TXN1078,C078,2025-03-13,800,Debit,ATM,Cash Withdrawal,Patna,Success,No
+TXN1079,C079,2025-03-14,30000,Credit,Net Banking,Investment,Jaipur,Success,No
+TXN1080,C080,2025-03-14,-900,Debit,UPI,Bills,Lucknow,Success,Yes
+TXN1081,C081,2025-03-15,5400,Debit,Card,Shopping,Kathmandu,Pending,No
+TXN1082,C082,2025-03-15,21500,Credit,Mobile Banking,Salary,Delhi,Success,No
+TXN1083,C083,2025-03-16,1600,Debit,ATM,Cash Withdrawal,Mumbai,Success,No
+TXN1084,C084,2025-03-16,10200,Debit,Card,Travel,Pune,Success,No
+TXN1085,C085,2025-03-17,4500,Debit,UPI,Food,Bangalore,Failed,No
+TXN1086,C086,2025-03-17,18500,Credit,Net Banking,Refund,Chennai,Success,No
+TXN1087,C087,2025-03-18,6900,Debit,Card,Shopping,Patna,Success,No
+TXN1088,C088,2025-03-18,1100,Debit,ATM,Cash Withdrawal,Hyderabad,Success,No
+TXN1089,C089,2025-03-19,24000,Credit,Mobile Banking,Loan Credit,Jaipur,Pending,No
+TXN1090,C090,2025-03-19,3300,Debit,UPI,Bills,Lucknow,Success,No
+TXN1091,C091,2025-03-20,7900,Debit,Card,Groceries,Kathmandu,Success,No
+TXN1092,C092,2025-03-20,27000,Credit,Net Banking,Salary,Delhi,Success,No
+TXN1093,C093,2025-03-21,700,Debit,ATM,Cash Withdrawal,Mumbai,Failed,No
+TXN1094,C094,2025-03-21,9300,Debit,Card,Electronics,Pune,Success,No
+TXN1095,C095,2025-03-22,5200,Debit,UPI,Food,Bangalore,Success,No
+TXN1096,C096,2025-03-22,16000,Credit,Mobile Banking,Refund,Chennai,Success,No
+TXN1097,C097,2025-03-23,8400,Debit,Card,Travel,Hyderabad,Pending,No
+TXN1098,C098,2025-03-23,900,Debit,ATM,Cash Withdrawal,Patna,Success,No
+TXN1099,C099,2025-03-24,29000,Credit,Net Banking,Investment,Jaipur,Success,No
+TXN1100,C100,2025-03-24,4100,Debit,UPI,Bills,Lucknow,Success,No
